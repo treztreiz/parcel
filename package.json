@@ -1,0 +1,17 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "serve": "yarn parcel src/index.html"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "5.2.1"
+  }
+}
